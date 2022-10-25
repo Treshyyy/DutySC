@@ -1,0 +1,31 @@
+name: Duty
+main: duty.main.Main
+author: Trashy
+version: 1.0.0
+api-version: 1.13
+
+commands:
+  duty:
+    description: Leaving/entering duty mode
+
+  role:
+    description: Rank set
+
+  dconfirm:
+    description: duty config reset
+  duty-activate:
+    description: duty plugin activation
+
+permissions:
+  duty.use:
+    description: /duty usage
+  duty.reload:
+    description: Config reload
+  duty.use.inf:
+    description: /duty command without cooldown
+  duty.admin:
+    description: Admin permission (/duty menu, /duty help)
+  duty.reset:
+    description: Config reset
+  role.set:
+    description: /Set/remove role

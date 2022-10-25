@@ -1,0 +1,44 @@
+#####################################
+#                                   #
+#                                   #
+#             CONFIG                #
+#                                   #
+#                                   #
+#####################################
+
+
+licence-key: ''
+
+
+#The plugin's prefix
+prefix: ' '
+
+#"No Permission" message
+noperm: ' '
+
+#Default rank's name
+player: '?'
+
+#Duty-player rank's name
+dplayer: '?'
+
+#Teleport when using /duty
+dutytp: false
+
+#/duty cooldown
+dutytime: 5
+
+
+#Commands that will run when leaving/entering duty mode (/duty) - MAX 4 command
+Duty-on:
+  #Example:
+  Command1: "god %player% disable"
+
+Duty-off:
+  #Example:
+  Command1: "god %player% enable"
+
+
+
+
+
